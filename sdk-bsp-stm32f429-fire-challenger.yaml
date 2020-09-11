@@ -1,0 +1,111 @@
+board:
+  buy_url_cn: https://estore.st.com/en/stm32f429i-disc1-cpn.html
+  buy_url_global: https://estore.st.com/en/stm32f429i-disc1-cpn.html
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: The 32F429IDISCOVERY Discovery kit leverages the capabilities of the STM32F429 high-performance microcontrollers, to allow users to develop rich applications easily with advanced graphic user interfaces.
+  description_zh: STM32F429I-DISCOVERY 开发板使用高性能 MCU STM32F429，可以用于实现高级图形用户界面。本 BSP 兼容 STM32F429I-DISCO 和 STM32F429I-DISC1 两个版本的 DISCOVERY 开发板。
+  emulator_machine: ''
+  large_image: documents/images/board_large.png
+  name: STM32F429-ST-DISCO
+  price_cn: 205.00 CNY
+  price_global: 29.30 USD
+  sale_contact_cn: http://www.st.com/stonline/contactus/contacts/index.php
+  sale_contact_global: http://www.st.com/stonline/contactus/contacts/index.php
+  small_image: documents/images/board_small.png
+  vendor: STMicroelectronics
+  version: Rev.A
+chip:
+  chip_name: STM32F429ZI
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F4
+  source_freq: '8000000'
+  sub_series_name: STM32F429
+  target_freq: '180000000'
+  tx_name: PA9
+  uart_name: UART1
+default_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - stm32f429_flash.icf
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - stm32_rom.ld
+    - stm32_rom.sct
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: rtt_default_project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/Sconscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: ''
+  project_type: rt-thread|@full|@latest
+docs:
+- category: manual
+  file: documents/manuals/DM00031020.pdf
+  title: Reference manual
+- category: sheet
+  file: documents/sheet/DM00071990.pdf
+  title: STM32F429 Datasheet
+example_projects: []
+features:
+- STM32F429ZIT6 microcontroller featuring 2 Mbytes of Flash memory, 256 Kbytes of RAM in an LQFP144 package
+- 2.4" QVGA TFT LCD
+- USB OTG with Micro-AB connector
+- I3G4250D, ST MEMS motion sensor 3-axis digital output gyroscope
+- LD1 (red/green) for USB communication
+- LD2 (red) for 3.3 V power-on
+- "Two user LEDs: LD3 (green), LD4 (red)"
+- "Two USB OTG LEDs: LD5 (green) VBUS and LD6 (red) OC (over-current)"
+- Two push-buttons (user and reset)
+- 64-Mbit SDRAM
+- Extension header for LQFP144 I/Os for a quick connection to the prototyping board and an easy probing
+- On-board ST-LINK/V2-B
+- "Board power supply: through the USB bus or from an external 3 V or 5 V supply voltage"
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThead
+pkg_version: 0.1.0
+yaml_version: 1
