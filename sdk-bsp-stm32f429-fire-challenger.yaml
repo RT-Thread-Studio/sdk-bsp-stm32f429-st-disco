@@ -106,6 +106,6 @@ features:
 - On-board ST-LINK/V2-B
 - "Board power supply: through the USB bus or from an external 3 V or 5 V supply voltage"
 pkg_type: Board_Support_Packages
-pkg_vendor: RealThead
+pkg_vendor: RealThread
 pkg_version: 0.1.0
 yaml_version: 1
